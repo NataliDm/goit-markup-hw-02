@@ -1,20 +1,17 @@
 /*navigation header*/
 :root {
---primary-brand: #4D5AE5;
---pressed-state: #404BBF;
---dark: #2E2F42;
---success: #31D0AA;
---text: #434455;
---subtle-text: #8E8F99;
---accent: #E7E9FC;
---light: #F4F4FD;
---modal-overlay: #2E2F42;
---hero-background: #2E2F42;
---white-background: #FFFFFF;
---modal-background: #FCFCFC;
-
-
-
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: #2e2f42;
+  --hero-background: #2e2f42;
+  --white-background: #ffffff;
+  --modal-background: #fcfcfc;
 }
 .nav {
   color: var(--dark);
@@ -42,38 +39,56 @@
 
 .hero-button {
   background-color: var(--primary-brand);
-  color: #FFFFFF;
+  color: #ffffff;
+  cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--pressed-state);
- color: #FFFFFF;
+  color: #ffffff;
 }
 
 .hero-button:active {
   background-color: var(var(--pressed-state));
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .filtr-button {
   background-color: var(--accent);
-  color: #4D5AE5;
+  color: #4d5ae5;
+  cursor: pointer;
 }
 .filtr-button:hover,
 .filtr-button:focus {
   background-color: var(--pressed-state);
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .filtr-button:active {
   background-color: var(--pressed-state);
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.body {
- font-family: Roboto;
- font-weight: Regular;
- Size: 16px;
- Line Height: 24px
- Letter Spacing: 2%
+.text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: var(--text);
+}
+.logo {
+  color: var(--dark);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.logoweb {
+  color: var(--primary-brand);
 }
