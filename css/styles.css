@@ -1,0 +1,79 @@
+/*navigation header*/
+:root {
+--primary-brand: #4D5AE5;
+--pressed-state: #404BBF;
+--dark: #2E2F42;
+--success: #31D0AA;
+--text: #434455;
+--subtle-text: #8E8F99;
+--accent: #E7E9FC;
+--light: #F4F4FD;
+--modal-overlay: #2E2F42;
+--hero-background: #2E2F42;
+--white-background: #FFFFFF;
+--modal-background: #FCFCFC;
+
+
+
+}
+.nav {
+  color: var(--dark);
+}
+.nav:hover,
+.nav:focus {
+  color: var(--pressed-state);
+}
+.nav:active {
+  color: var(--pressed-state);
+}
+
+.address {
+  color: var(--text);
+}
+.address:hover,
+.address:focus {
+  color: var(--pressed-state);
+}
+
+.address:active {
+  color: var(--pressed-state);
+}
+/*section hero*/
+
+.hero-button {
+  background-color: var(--primary-brand);
+  color: #FFFFFF;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--pressed-state);
+ color: #FFFFFF;
+}
+
+.hero-button:active {
+  background-color: var(var(--pressed-state));
+  color: #FFFFFF;
+}
+
+.filtr-button {
+  background-color: var(--accent);
+  color: #4D5AE5;
+}
+.filtr-button:hover,
+.filtr-button:focus {
+  background-color: var(--pressed-state);
+  color: #FFFFFF;
+}
+
+.filtr-button:active {
+  background-color: var(--pressed-state);
+  color: #FFFFFF;
+}
+
+.body {
+ font-family: Roboto;
+ font-weight: Regular;
+ Size: 16px;
+ Line Height: 24px
+ Letter Spacing: 2%
+}
