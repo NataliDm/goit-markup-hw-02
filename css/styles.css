@@ -26,6 +26,12 @@
 
 .address {
   color: var(--text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  list-style-type: none;
+  letter-spacing: 0.02em;
 }
 .address:hover,
 .address:focus {
@@ -37,11 +43,23 @@
 }
 /*section hero*/
 
+.hero {
+  background: var(--dark);
+  color: var(--white-background);
+}
+.hero-text {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
 .hero-button {
   background-color: var(--primary-brand);
   color: #ffffff;
   cursor: pointer;
 }
+
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--pressed-state);
@@ -89,4 +107,67 @@
 }
 .logoweb {
   color: var(--primary-brand);
+}
+.nav-but-text {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  list-style-type: none;
+  color: var(--dark);
+}
+/*About company*/
+.company-descr {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.company-list {
+  list-style-type: none;
+}
+.company-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+/*What we are doing*/
+.tasks-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.tasks-img {
+  list-style-type: none;
+}
+/*our team*/
+.team-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark);
+}
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.team-job {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--text);
 }
