@@ -13,7 +13,6 @@
   --white-background: #ffffff;
   --modal-background: #fcfcfc;
 }
-
 .nav {
   color: var(--dark);
 }
@@ -24,13 +23,22 @@
 .nav:active {
   color: var(--pressed-state);
 }
+.nav-logo {
+  color: var(--dark);
+}
+.menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
 .address {
   color: var(--text);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  list-style-type: none;
   letter-spacing: 0.02em;
 }
 .address:hover,
@@ -40,6 +48,20 @@
 
 .address:active {
   color: var(--pressed-state);
+}
+.mail {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+.tel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
 }
 /*section hero*/
 
@@ -114,9 +136,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.link {
-  text-decoration: none;
-}
+
 .logoweb {
   color: var(--light);
 }
@@ -139,6 +159,9 @@
 }
 .list {
   list-style-type: none;
+}
+.link {
+  text-decoration: none;
 }
 .company-text {
   font-weight: 400;
@@ -219,4 +242,11 @@
 /*footer*/
 .footer {
   background-color: var(--dark);
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--light);
 }
