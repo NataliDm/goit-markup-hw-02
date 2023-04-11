@@ -105,7 +105,7 @@
   background-color: var(--white-background);
 }
 .logo {
-  color: var(--dark);
+  color: var(--primary-brand);
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -118,7 +118,7 @@
   text-decoration: none;
 }
 .logoweb {
-  color: var(--primary-brand);
+  color: var(--light);
 }
 .nav-but-text {
   font-weight: 500;
@@ -146,6 +146,16 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
+}
+.company-header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--dark);
 }
 /*What we are doing*/
 .tasks-text {
@@ -205,4 +215,8 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
+}
+/*footer*/
+.footer {
+  background-color: var(--dark);
 }
