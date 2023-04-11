@@ -155,11 +155,12 @@
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-}
-.tasks-img {
-  list-style-type: none;
+  color: var(--dark);
 }
 /*our team*/
+.team {
+  background-color: var(--light);
+}
 .team-header {
   font-weight: 700;
   font-size: 36px;
@@ -168,6 +169,9 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark);
+}
+.team-list {
+  background: var(--white-background);
 }
 .team-name {
   font-weight: 500;
@@ -183,9 +187,7 @@
   letter-spacing: 0.02em;
   color: var(--text);
 }
-.team-list {
-  list-style-type: none;
-}
+
 /*page 2 portfolio   examples*/
 .examples-list {
   list-style-type: none;
