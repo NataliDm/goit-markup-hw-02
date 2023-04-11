@@ -13,6 +13,7 @@
   --white-background: #ffffff;
   --modal-background: #fcfcfc;
 }
+
 .nav {
   color: var(--dark);
 }
@@ -23,7 +24,6 @@
 .nav:active {
   color: var(--pressed-state);
 }
-
 .address {
   color: var(--text);
   font-style: normal;
@@ -95,16 +95,19 @@
   line-height: 1.5;
   letter-spacing: 2%;
   color: var(--text);
+  background-color: var(--white-background);
 }
 .logo {
   color: var(--dark);
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.link {
   text-decoration: none;
 }
 .logoweb {
