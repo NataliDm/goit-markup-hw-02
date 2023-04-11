@@ -56,8 +56,15 @@
 }
 .hero-button {
   background-color: var(--primary-brand);
-  color: #ffffff;
+  color: var(--white-background);
   cursor: pointer;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .hero-button:hover,
@@ -130,7 +137,7 @@
   letter-spacing: 0.02em;
   color: var(--dark);
 }
-.company-list {
+.list {
   list-style-type: none;
 }
 .company-text {
