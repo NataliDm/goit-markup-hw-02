@@ -33,6 +33,11 @@
   letter-spacing: 0.02em;
   color: var(--dark);
 }
+.menu:hover,
+.menu:focus {
+  color: var(--pressed-state);
+}
+
 .address {
   color: var(--text);
   font-style: normal;
@@ -41,14 +46,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.address:hover,
-.address:focus {
-  color: var(--pressed-state);
-}
 
-.address:active {
-  color: var(--pressed-state);
-}
 .mail {
   font-weight: 400;
   font-size: 16px;
@@ -56,6 +54,11 @@
   letter-spacing: 0.02em;
   color: var(--text);
 }
+.mail:hover,
+.mail:focus {
+  color: var(--pressed-state);
+}
+
 .tel {
   font-weight: 400;
   font-size: 16px;
@@ -63,6 +66,11 @@
   letter-spacing: 0.02em;
   color: var(--text);
 }
+.tel:hover,
+.tel:focus {
+  color: var(--pressed-state);
+}
+
 /*section hero*/
 
 .hero {
@@ -80,7 +88,6 @@
   background-color: var(--primary-brand);
   color: var(--white-background);
   cursor: pointer;
-
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
