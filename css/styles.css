@@ -58,6 +58,9 @@
 .mail:focus {
   color: var(--pressed-state);
 }
+.mail:active {
+  color: var(--pressed-state);
+}
 
 .tel {
   font-weight: 400;
