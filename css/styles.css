@@ -114,9 +114,7 @@
   background-color: var(--pressed-state);
   color: #ffffff;
 }
-.filtr-list {
-  list-style-type: none;
-}
+
 .text {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
