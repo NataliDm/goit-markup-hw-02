@@ -62,7 +62,6 @@
   color: var(--pressed-state);
 }
 
-
 /*section hero*/
 
 .hero {
@@ -100,9 +99,15 @@
 }
 
 .filtr-button {
-  background-color: var(--accent);
+  background-color: var(--light);
   color: #4d5ae5;
   cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .filtr-button:hover,
 .filtr-button:focus {
@@ -219,9 +224,7 @@
 }
 
 /*page 2 portfolio   examples*/
-.examples-list {
-  list-style-type: none;
-}
+
 .examples-name {
   font-weight: 500;
   font-size: 20px;
@@ -230,7 +233,6 @@
   color: var(--dark);
 }
 .examples-type {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -246,7 +248,4 @@
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--light);
-
 }
-
-
